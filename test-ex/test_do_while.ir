@@ -1,0 +1,15 @@
+FUNCTION main :
+v1 := #0
+LABEL label1 :
+v1 := v1 + #3
+WRITE v1
+IF v1 < #10 GOTO label1
+GOTO label3
+GOTO label1
+LABEL label3 :
+WRITE #1234
+IF #0 != #0 GOTO label3
+GOTO label6
+GOTO label3
+LABEL label6 :
+RETURN #0

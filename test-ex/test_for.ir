@@ -1,0 +1,12 @@
+FUNCTION main :
+v1 := #4
+LABEL label1 :
+IF v1 >= #29 GOTO label3
+WRITE v1
+v1 := v1 + #3
+GOTO label1
+LABEL label3 :
+v1 := v1 + #1
+WRITE v1
+IF v1 <= #31 GOTO label3
+RETURN #0

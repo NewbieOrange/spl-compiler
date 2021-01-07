@@ -1,0 +1,12 @@
+int main() {
+    int i;
+    for (i = 4; i < 29; i = i + 3) {
+        write (i);
+    }
+    for (;;) {
+        i = i + 1;
+        write(i);
+        if (i > 31) break;
+    }
+    return 0;
+}

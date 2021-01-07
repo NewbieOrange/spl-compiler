@@ -1,0 +1,11 @@
+int main() {
+    int i = 0;
+    do {
+        i = i + 3;
+        write(i);
+    } while (i < 10);
+    do {
+        write(1234);
+    } while (0 != 0);
+    return 0;
+}
