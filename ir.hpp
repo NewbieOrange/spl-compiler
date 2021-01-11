@@ -189,23 +189,3 @@ Code* combineCode(Code* c1, Code* c2) {
     
     return c1;
 }
-
-struct IRBlock {
-    Value* label;
-    Code* code;
-    
-    std::vector<IRBlock*> incoming;
-    int postorderIndex;
-    
-    IRBlock* outgoingDirect;
-    IRBlock* outgoingCond;
-};
-
-struct IRMethod {
-    char* name;
-    std::vector<Value*> args, locals;
-    std::vector<IRBlock*> blocks, blocksPre, blocksPost, blocksRPost;
-};
-
-
-
