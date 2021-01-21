@@ -1,5 +1,7 @@
 # spl-compiler
-Simple compiler implementation for CS323 compiler course
+Simple compiler implementation for CS323 compiler course (SUSTech programming language).
+
+Finished within 48 hours in text editor, sorry for the terrible and (probably) buggy code.
 
 ## Benchmark
 
